@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.section {
+    text-align: center;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.image-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px; /* Sesuaikan tinggi container sesuai kebutuhan */
+}
+
+.image-container img {
+    max-width: 85%;
+    max-height: 85%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    max-height: 300px; /* Sesuaikan tinggi maksimum gambar sesuai kebutuhan */
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+}
+
+
+.about-text {
+    max-width: 60%; /* Adjust the width as needed */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        margin-bottom: 20px;
+    }
+
+    .about-text {
+        max-width: 100%;
+    }
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: 23%; /* Menyesuaikan lebar kolom sesuai kebutuhan */
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: 23%; /* Menyesuaikan lebar kolom sesuai kebutuhan */
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 250%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+}
+
